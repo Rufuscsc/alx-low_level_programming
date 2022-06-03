@@ -14,7 +14,7 @@ int main(void)
 		small++;
 	}
 
-	upper = 'A';
+	char upper = 'A';
 
 	while (upper <= 'Z')
 	{
