@@ -7,21 +7,22 @@
 int main(void)
 {
 	char small = 'a';
-        while(small <= 'z')
-        {
-                putchar(small);
-		small++;
 
-        }
-	
-	char upper = 'A';
-	
-	while  (upper <= 'Z')
+	while (small <= 'z')
+	{
+		putchar(small);
+		small++;
+	}
+
+	upper = 'A';
+
+	while (upper <= 'Z')
 	{
 		putchar(upper);
 		upper++;
 	}
 
 	putchar('\n');
+
 	return (0);
 }
