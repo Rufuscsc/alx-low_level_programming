@@ -72,4 +72,3 @@ int _checknum(char *argv[], int n)
 
 	return (ln);
 }
-
